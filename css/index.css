@@ -25,7 +25,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: crimson;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -162,6 +162,42 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropbtn {
+	color: #0499ff;
+	cursor: default;
+	transition: all .5s;
+}
+
+.dropbtn:hover {
+	color: white;
+}
+
+.dropdown-items {
+	display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown-items a {
+	color: crimson;
+	font-size: 12px;
+}
+
+.dropdown-items a:hover {
+	color: #0499ff;
+	background-color: gainsboro;
+}
+
+.dropdown:hover .dropdown-items {
+    display: block;
 }
 
 /* Styles for larger screens */
