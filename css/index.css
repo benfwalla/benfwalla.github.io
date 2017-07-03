@@ -182,18 +182,23 @@ a.social:hover {
 .dropdown-items {
 	display: none;
     position: absolute;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
     background-color: white;
     z-index: 1;
 }
 
 .dropdown-items a {
 	color: crimson;
-	font-size: 12px;
+	margin-bottom: 15px;
+    font-size: 12px;
+    white-space: nowrap;
+    display: block;
 }
 
 .dropdown-items a:hover {
 	color: #0499ff;
-	background-color: gainsboro;
 }
 
 .dropdown:hover .dropdown-items {
